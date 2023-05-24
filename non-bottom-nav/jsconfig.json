@@ -1,7 +1,0 @@
-{
-  "compilerOptions": {
-    "paths": {
-      "@/*": ["../non_bottom_navigation/*"]
-    }
-  }
-}
