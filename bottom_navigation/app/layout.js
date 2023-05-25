@@ -1,6 +1,7 @@
 import BottomNav from "@/app/BottomNav";
 import "./globals.css";
 import { Inter } from "next/font/google";
+import TopBar from "@/app/TopBar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -13,6 +14,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
+        <TopBar />
         {children}
         <BottomNav />
       </body>
